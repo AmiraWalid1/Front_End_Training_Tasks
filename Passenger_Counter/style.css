@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-image: url(image/snowy\ train\ station.jpeg);
+    background-image: url(image/station.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -8,19 +8,22 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(76, 90, 97);
+    color: white;
 }
 
 h2 {
     text-align: center;
-    color: #99353a
+    
 }
 
 button {
-    background-color: #99353a;
+    color: rgb(227, 223, 217);
+    background-color: rgb(7, 7, 132);
     border: solid 2px balck;
     border-radius: 4px;
     width: 100px;
     padding: 5px 0;
 }
+
 
 
