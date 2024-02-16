@@ -20,6 +20,3 @@ function reset() {
     counter = 0;
     counterEl.textContent = 0;
 }
-
-console.log(window.innerWidth)
-console.log(window.innerHeight)
