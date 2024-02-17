@@ -8,15 +8,14 @@ function increment() {
 }
 
 function decrement() {
-    counter--;
+    if (counter > 0)
+        counter--;
     counterEl.textContent = counter;
 }
 
 function save() {
     prevEntryEl.textContent = "Previous entries: " + counter;
-}
-
-function reset() {
     counter = 0;
     counterEl.textContent = 0;
 }
+
