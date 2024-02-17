@@ -9,8 +9,10 @@ function increment() {
 
 function decrement() {
     if (counter > 0)
+    {
         counter--;
-    counterEl.textContent = counter;
+        counterEl.textContent = counter;
+    }
 }
 
 function save() {
